@@ -4,6 +4,10 @@
     {
       "name": "Install Dependencies",
       "command": "yarn install"
+    },
+    {
+      "name": "Generate db",
+      "command": "yarn prisma generate && yarn prisma migrate dev"
     }
   ],
 
